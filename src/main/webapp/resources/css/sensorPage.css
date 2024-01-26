@@ -1,0 +1,101 @@
+*{
+    /* border: 1px dashed black; */
+}
+
+
+/* PLATFORM */
+.platform-container{
+    width: 500px;
+}
+
+.platformOption-container{
+    display: flex;
+}
+
+.thePlatform-logo{
+    height: 100px;
+}
+
+.thePlatform{
+    padding-right: 50px;
+}
+
+.thePlatform img{
+    height: 100px;
+}
+
+.thePlatform-name{
+	width: 150px;
+    margin-top: 10px;
+}
+
+.thePlatform-name label{
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+
+/* API KEY */
+.api-container{
+    width: 650px;
+}
+
+.code-container{
+    /* position: relative; */
+    width: 600px;
+    height: 300px;
+    background-color: beige;
+    border-radius: 20px;
+}
+
+.copyButton-div{
+    height:52px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.copyButton-container{
+    width: 33px;
+    height: 35px;
+    background-color: rgb(226, 225, 225);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.content-body {
+	display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.question {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.question input {
+  margin-left: 10px;
+}
+
+.question-div{
+	width: 500px;
+}
+.connection-method-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.connection-option input {
+  margin-right: 10px;
+}
+

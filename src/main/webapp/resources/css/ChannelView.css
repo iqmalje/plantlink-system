@@ -1,0 +1,129 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+* {
+	margin: 0;
+	font-family: 'Poppins';
+}
+
+
+.system-container{
+    width: 33vw;
+    margin-left: 15vw;
+}
+
+.system-container-row{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.system-name{
+    color: black;
+    font-size: 40px;
+    font-family: Libre Baskerville;
+    font-weight: 700;
+    line-height: 32.08px;
+    word-wrap: break-word ;
+    margin-top: 80px;
+    }
+
+.system-description{
+    color: black;
+    font-size: 13px;
+    font-family: Libre Baskerville;
+    font-weight: 400;
+    line-height: 25px;
+    word-wrap: break-word;
+    margin-top: 10px;
+    }
+
+.text-subject-row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vh;
+}
+
+.text-subject{
+    color: black;
+    font-size: 14px;
+    font-family: Libre Baskerville;
+    font-weight: 400;
+    word-wrap: break-word 
+}
+
+.text-subject-description{
+    color: black;
+    font-size: 14px;
+    font-family: Libre Baskerville;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.copy-box{
+    width:60px;
+    height: 20px;
+    border: 1px solid grey;
+    border-radius: 6px;
+    margin-left: 1vw;
+}
+
+.copy-API-key{
+    color: #939393;
+    font-size: 13px;
+    font-family: Libre Baskerville;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.copy-logo{
+    color: #939393;
+    width: 14px;
+    height: 14px;
+}
+
+.map-box{
+    width: 23vw;
+    height: 155px;
+    border: 1px solid grey;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 15vw;
+}
+
+.data-visualization{
+    font-size: 32px;
+    font-family: Libre Baskerville;
+    font-weight: 700;
+    word-wrap: break-word ;
+    margin-left: 15vw;
+    margin-top: 8vh;
+}
+
+.visualization-box{
+    width: 30vw;
+    height: 30vh;
+    border: 1px dashed black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    font-family: Libre Baskerville;
+    font-weight: 700; 
+}
+
+.vis-box-row{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    justify-content: space-between;
+}
+
+.space5top{
+    margin-top: 5vh;
+}
+
+    
